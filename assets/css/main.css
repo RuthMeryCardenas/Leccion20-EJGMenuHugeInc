@@ -2,6 +2,14 @@ body{
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
+footer{
+  background-color: #0F110C;
+  height: 80px;
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+}
 /*Direct style for nav tag*/
 nav, #frase{
   width: 100%;
@@ -19,7 +27,6 @@ nav{
   transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
 }
 #frase{
-  z-index: 700;
   height: 350px;
   background-color: #0F110C;
   text-align: center;
@@ -27,7 +34,6 @@ nav{
 }
 #grid{
   background-color: #fff;
-  height: 300px;
   padding-top: 1rem;
   color: #0F110C;
   text-align: center;
