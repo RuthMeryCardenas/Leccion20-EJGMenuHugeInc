@@ -1,3 +1,8 @@
+//VARIABLES GLOBALES
+var gridDiv = document.getElementById("grid");
+//FUNCIONES
+loadCoders ();
+printAllCoderFigure(gridDiv);
 document.getElementById("toggle").addEventListener("click", function(event){
   event.preventDefault();
   document.getElementById("nav-header").classList.toggle("open");
